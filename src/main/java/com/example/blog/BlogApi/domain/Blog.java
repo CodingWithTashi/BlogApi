@@ -1,14 +1,12 @@
 package com.example.blog.BlogApi.domain;
 
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "BLOG")
 public class Blog {
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @javax.persistence.Id
     @Column(name = "ID")
     private Long Id;
