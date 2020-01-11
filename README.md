@@ -7,7 +7,7 @@ https://bloappapi.herokuapp.com/api/
 https://bloappapi.herokuapp.com/api/blog/get
 
 2.Pos Blog
-http://localhost:8080/api/blog/save
+https://bloappapi.herokuapp.com/api/blog/save
 
 Body :
 
@@ -18,7 +18,7 @@ Body :
 }
 
 3.Update Blog
-http://localhost:8080/api/blog/update/33
+https://bloappapi.herokuapp.com/api/blog/update/33
 Body:
 {
 	"id":33,
@@ -29,6 +29,6 @@ Body:
   
   
 4.Delete Blog
-http://localhost:8080/api/blog/delete/33
+https://bloappapi.herokuapp.com/api/blog/delete/33
 
 
