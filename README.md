@@ -32,3 +32,18 @@ Body:
 https://bloappapi.herokuapp.com/api/blog/delete/33
 
 
+How to push git project in Heroku.
+
+Heroku deploy step.
+
+1.heroku login
+2.git add .
+3.git commit - "message"
+3.git push heroku master
+
+//check log
+heroku logs -t
+
+//Get heroku application detail
+heroku info
+
