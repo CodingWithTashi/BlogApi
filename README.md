@@ -1,13 +1,13 @@
 # BlogApi
 
-Api Root Url : 
-https://bloappapi.herokuapp.com/api/
+Api Documentation with swagger UI : 
+https://blogrestapi.herokuapp.com/doc
 
 1.Get Blog
-https://bloappapi.herokuapp.com/api/blog/get
+https://blogrestapi.herokuapp.com/api/blog/get
 
 2.Pos Blog
-https://bloappapi.herokuapp.com/api/blog/save
+https://blogrestapi.herokuapp.com/api/blog/save
 
 Body :
 
@@ -18,7 +18,7 @@ Body :
 }
 
 3.Update Blog
-https://bloappapi.herokuapp.com/api/blog/update/33
+https://blogrestapi.herokuapp.com/api/blog/update/33
 Body:
 {
 	"id":33,
@@ -29,7 +29,7 @@ Body:
   
   
 4.Delete Blog
-https://bloappapi.herokuapp.com/api/blog/delete/33
+https://blogrestapi.herokuapp.com/api/blog/delete/33
 
 
 How to push git project in Heroku.
